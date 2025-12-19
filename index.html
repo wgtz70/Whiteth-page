@@ -5,14 +5,24 @@
     <title>TikTok video management - Official Website</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        .logo { width: 100px; height: 100px; background: #ddd; margin: 0 auto; border-radius: 20px; }
-        h1 { color: #333; }
+        /* 这里的样式控制图片的大小和圆角 */
+        .logo { 
+            width: 100px; 
+            height: 100px; 
+            margin: 0 auto; 
+            border-radius: 20px; 
+            display: block; 
+            object-fit: cover;
+        }
+        h1 { color: #333; margin-top: 20px; }
         .links { margin-top: 30px; }
         .links a { margin: 0 15px; color: #007bff; text-decoration: none; }
     </style>
 </head>
 <body>
-    <div class="logo"></div> <!-- 你可以放一张logo图片 -->
+    <!-- 这里引用了你上传到仓库里的 logo.png -->
+    <img src="logs.jpg" alt="App Logo" class="logo">
+    
     <h1>Welcome to TikTok video management</h1>
     <p>A amazing application integrated with TikTok.</p>
     
@@ -20,6 +30,6 @@
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
     </div>
-    <p style="margin-top: 50px; color: #888;">Contact: fooywhiteth@gmail.com</p>
+    <p style="margin-top: 50px; color: #888;">Contact: [fooywhiteth@gmail.com]</p>
 </body>
 </html>
